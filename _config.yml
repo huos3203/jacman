@@ -88,7 +88,7 @@ links:
 #### Comment
 # short_name string 必须 站点注册的多说二级域名。注意：你注册了http://apitest.duoshuo.com/时，多说二级域名为**apitest**。
 # threads string 必须 你需要获取的文章的thread-key，可传递多个thread_key，即文章在原站点中的id，与评论框中data-thread-key一致。用逗号分割。例如：4ff160411318693231000006,4ff160411318693231000007
-duoshuo_shortname: huos3203   ## e.g. wuchong   your duoshuo short name. 第二域名：即为shorname
+duoshuo_shortname: huo3203   ## e.g. wuchong   your duoshuo short name. 第二域名：即为shorname
 # duoshuo_comments: true  
 # duoshuo_asides_num: 10      # 侧边栏评论显示条目数
 # duoshuo_asides_avatars: 0   # 侧边栏评论是否显示头像

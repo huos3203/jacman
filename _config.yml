@@ -57,7 +57,7 @@ creative_commons: none
 #### Author information
 author:
   intro_line1:  "嗨，见文如晤，多多指教."    ## your introduction on the bottom of the page
-  intro_line2:  "粗浅见解，修已成文，盼广交同道中人."  ## the 2nd line
+  intro_line2:  "粗浅见解，修葺成文，盼广交同道中人."  ## the 2nd line
   weibo: 1791281385     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:     ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina: 1791281385     ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -65,11 +65,11 @@ author:
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
   email: 724987481@qq.com     ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: https://github.com/huos3203    ## e.g. wuchong for https://github.com/wuchong
+  github: huos3203    ## e.g. wuchong for https://github.com/wuchong
   facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin: https://www.linkedin.com/in/boyerswift  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  linkedin: boyerswift  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
-  stackoverflow: http://stackoverflow.com/users/6211905/boyer ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  stackoverflow: 6211905 ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
 #### Toc  启用在文章中或侧边栏中的目录功能
@@ -86,7 +86,9 @@ links:
 
 
 #### Comment
-duoshuo_shortname: huos3203   ## e.g. wuchong   your duoshuo short name.
+# short_name string 必须 站点注册的多说二级域名。注意：你注册了http://apitest.duoshuo.com/时，多说二级域名为**apitest**。
+# threads string 必须 你需要获取的文章的thread-key，可传递多个thread_key，即文章在原站点中的id，与评论框中data-thread-key一致。用逗号分割。例如：4ff160411318693231000006,4ff160411318693231000007
+duoshuo_shortname: huos3203   ## e.g. wuchong   your duoshuo short name. 第二域名：即为shorname
 # duoshuo_comments: true  
 # duoshuo_asides_num: 10      # 侧边栏评论显示条目数
 # duoshuo_asides_avatars: 0   # 侧边栏评论是否显示头像
